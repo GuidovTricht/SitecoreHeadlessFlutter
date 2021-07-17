@@ -1,0 +1,328 @@
+{
+  "sitecore": {
+    "context": {
+      "pageEditing": false,
+      "site": {
+        "name": null
+      },
+      "pageState": "normal",
+      "language": "en",
+      "itemPath": "/"
+    },
+    "route": {
+      "name": "Home",
+      "displayName": "Home",
+      "fields": {
+        "NavigationTitle": {
+          "value": "Home"
+        },
+        "FooterCopyright": {
+          "value": "Copyright"
+        },
+        "HeaderLogo": {
+          "value": {
+            "src": "https://headlessplayground-cm.vh.localhost/-/media/ExampleRHSite/helix-logo.ashx?h=44&iar=0&w=139&hash=73EA500D63FE59FD41BBD651A7AEF6F5",
+            "alt": "Sitecore Helix",
+            "width": "139",
+            "height": "44"
+          }
+        }
+      },
+      "databaseName": "web",
+      "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+      "itemId": "6ef11188-4b00-443c-8828-4ed3a68be665",
+      "itemLanguage": "en",
+      "itemVersion": 1,
+      "layoutId": "2218ad4f-87c8-4686-9c44-d36d509562d6",
+      "templateId": "49588140-2f59-4f56-ae5a-e3fb922ac29f",
+      "templateName": "Home Page",
+      "placeholders": {
+        "header": [
+          {
+            "uid": "7d4f689f-208c-4ea3-88ba-0bc6e615771e",
+            "componentName": "Header",
+            "dataSource": "",
+            "params": {},
+            "fields": {
+              "logoLink": {
+                "NavigationTitle": {
+                  "value": "Home"
+                },
+                "FooterCopyright": {
+                  "value": "Copyright"
+                },
+                "HeaderLogo": {
+                  "value": {
+                    "src": "https://headlessplayground-cm.vh.localhost/-/media/ExampleRHSite/helix-logo.ashx?h=44&iar=0&w=139&hash=73EA500D63FE59FD41BBD651A7AEF6F5",
+                    "alt": "Sitecore Helix",
+                    "width": "139",
+                    "height": "44"
+                  }
+                }
+              },
+              "navItems": [
+                {
+                  "url": "/en/",
+                  "isActive": true,
+                  "title": "Home"
+                },
+                {
+                  "url": "/en/Products",
+                  "isActive": false,
+                  "title": "Products"
+                },
+                {
+                  "url": "/en/Services",
+                  "isActive": false,
+                  "title": "Services"
+                }
+              ]
+            }
+          }
+        ],
+        "main": [
+          {
+            "uid": "bb562955-2cf5-4a57-b6c7-ddf2278ec0e0",
+            "componentName": "HeroBanner",
+            "dataSource": "{01ffd680-39fa-4d03-9e0c-7ae0dbf05747}",
+            "params": {},
+            "fields": {
+              "Image": {
+                "value": {
+                  "src": "https://placekitten.com/600/300",
+                  "alt": "ExampleRHSite",
+                  "width": "1920",
+                  "height": "510"
+                }
+              },
+              "Subtitle": {
+                "value": "Lorem Ipsum Dolor Sit Amet"
+              },
+              "Title": {
+                "value": "ExampleRHSite"
+              }
+            }
+          },
+          {
+            "uid": "e10e7525-8542-41bc-939e-3082925b9c52",
+            "componentName": "PromoContainer",
+            "dataSource": "",
+            "params": {},
+            "placeholders": {
+              "promos": [
+                {
+                  "uid": "6b3e9f3e-18eb-4321-9b1b-45e12b29b103",
+                  "componentName": "PromoCard",
+                  "dataSource": "{583de028-97d7-4483-afe8-59863c3a7545}",
+                  "params": {},
+                  "fields": {
+                    "Headline": {
+                      "value": "Lorem Ipsum"
+                    },
+                    "Image": {
+                      "value": {
+                        "src": "https://placekitten.com/300/300",
+                        "alt": "Paperclip",
+                        "width": "1920",
+                        "height": "1028"
+                      }
+                    },
+                    "Text": {
+                      "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.</p>"
+                    },
+                    "Link": {
+                      "value": {
+                        "href": "/en/",
+                        "text": "",
+                        "linktype": "internal",
+                        "url": "",
+                        "anchor": "",
+                        "title": "",
+                        "class": "",
+                        "querystring": "",
+                        "target": "",
+                        "id": "{6ef11188-4b00-443c-8828-4ed3a68be665}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "uid": "a19a07d9-72e1-42b1-a110-4fbb52552ff7",
+                  "componentName": "PromoCard",
+                  "dataSource": "{d853221e-6d04-4876-b25b-d1582811c9e6}",
+                  "params": {},
+                  "fields": {
+                    "Headline": {
+                      "value": "Dolor Sit"
+                    },
+                    "Image": {
+                      "value": {
+                        "src": "https://placekitten.com/300/300",
+                        "alt": "Paperclip",
+                        "width": "1920",
+                        "height": "1028"
+                      }
+                    },
+                    "Text": {
+                      "value": "<p>Ut a nisl id ante tempus hendrerit. Nam adipiscing. In auctor lobortis lacus. In auctor lobortis lacus. In hac habitasse platea dictumst.</p>"
+                    },
+                    "Link": {
+                      "value": {
+                        "href": "/en/",
+                        "text": "",
+                        "linktype": "internal",
+                        "url": "",
+                        "anchor": "",
+                        "title": "",
+                        "class": "",
+                        "querystring": "",
+                        "target": "",
+                        "id": "{6ef11188-4b00-443c-8828-4ed3a68be665}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "uid": "67101942-6f27-4894-b407-3144cdc7a1e7",
+                  "componentName": "PromoCard",
+                  "dataSource": "{2ec4d4ec-b5f9-4e93-9595-c9757d6e6e8f}",
+                  "params": {},
+                  "fields": {
+                    "Headline": {
+                      "value": "Nullam vel"
+                    },
+                    "Image": {
+                      "value": {
+                        "src": "https://placekitten.com/300/300",
+                        "alt": "Paperclip",
+                        "width": "1920",
+                        "height": "1028"
+                      }
+                    },
+                    "Text": {
+                      "value": "<p>Vivamus elementum semper nisi. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Phasellus dolor.</p>"
+                    },
+                    "Link": {
+                      "value": {
+                        "href": "/en/",
+                        "text": "",
+                        "linktype": "internal",
+                        "url": "",
+                        "anchor": "",
+                        "title": "",
+                        "class": "",
+                        "querystring": "",
+                        "target": "",
+                        "id": "{6ef11188-4b00-443c-8828-4ed3a68be665}"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "uid": "d65c5c87-61b0-4e2d-9842-6d6b1faed3cf",
+            "componentName": "SectionHeader",
+            "dataSource": "{b9673fc1-8b9b-484c-bd9a-ce03ea37b31e}",
+            "params": {},
+            "fields": {
+              "Text": {
+                "value": "Section Header"
+              }
+            }
+          },
+          {
+            "uid": "0b6b5e57-eb1c-42a6-86f3-da06dfd1f319",
+            "componentName": "PromoContainer",
+            "dataSource": "",
+            "params": {},
+            "placeholders": {
+              "promos": [
+                {
+                  "uid": "89e51b5a-164e-4d35-a8a8-de8a90e0ef8a",
+                  "componentName": "PromoCard",
+                  "dataSource": "{49bbb2ff-95b9-4232-a958-1fc1bc51f619}",
+                  "params": {},
+                  "fields": {
+                    "Headline": {
+                      "value": "Etiam ultricies"
+                    },
+                    "Image": {
+                      "value": {
+                        "src": "https://headlessplayground-cm.vh.localhost/-/media/ExampleRHSite/promo-card-5.ashx?h=1028&iar=0&w=1920&hash=6E41CB7F19C19560A017EF5FDF764760",
+                        "alt": "Sed mollis",
+                        "width": "1920",
+                        "height": "1028"
+                      }
+                    },
+                    "Text": {
+                      "value": "Praesent congue erat at massa."
+                    },
+                    "Link": {
+                      "value": {
+                        "href": "/en/",
+                        "text": "",
+                        "anchor": "",
+                        "linktype": "internal",
+                        "class": "",
+                        "title": "",
+                        "querystring": "",
+                        "id": "{6ef11188-4b00-443c-8828-4ed3a68be665}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "uid": "37626e09-3015-4350-b168-e3497bd52186",
+                  "componentName": "PromoCard",
+                  "dataSource": "{8b372acd-c70e-4c83-bdb8-dc6be64799e4}",
+                  "params": {},
+                  "fields": {
+                    "Headline": {
+                      "value": "Nunc nulla"
+                    },
+                    "Image": {
+                      "value": {
+                        "src": "https://headlessplayground-cm.vh.localhost/-/media/ExampleRHSite/promo-card-2.ashx?h=1028&iar=0&w=1920&hash=976FDFCF5934492439095A7E9CFD0A0A",
+                        "alt": "Donec id",
+                        "width": "1920",
+                        "height": "1028"
+                      }
+                    },
+                    "Text": {
+                      "value": "Praesent blandit laoreet nibh. Fusce vel dui."
+                    },
+                    "Link": {
+                      "value": {
+                        "href": "/en/Products",
+                        "text": "",
+                        "anchor": "",
+                        "linktype": "internal",
+                        "class": "",
+                        "title": "",
+                        "querystring": "",
+                        "id": "{2fc0f583-e67c-4019-ba18-f68a72f1768e}"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "footer": [
+          {
+            "uid": "66b647e6-3d33-45ef-af06-ebb2175bc56b",
+            "componentName": "Footer",
+            "dataSource": "",
+            "params": {},
+            "fields": {
+              "footerText": "Copyright"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
